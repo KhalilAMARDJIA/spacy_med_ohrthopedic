@@ -1,0 +1,520 @@
+{
+    "Clinical outcomes": {
+        "Upper_Extremity": {
+            "Quick Disabilities of the Arm, Shoulder and Hand": [
+                "Quick Disabilities of the Arm, Shoulder and Hand",
+                "Quick Disabilities of the Arm Shoulder and Hand",
+                "Quick Disabilities of the Arm, Shoulder & Hand",
+                "Quick Disabilities of the Arm Shoulder & Hand",
+                "(QuickDASH)",
+                "(Quick DASH)",
+                "(Quick-DASH)",
+                "(Q-DASH)",
+                " QuickDASH ",
+                " Quick DASH ",
+                " Quick-DASH ",
+                " Q-DASH "
+            ],
+            "Disabilities of the Arm, Shoulder and Hand": [
+                "Disabilities of the Arm, Shoulder and Hand",
+                "Disabilities of the Arm Shoulder and Hand",
+                "Disabilities of the Arm, Shoulder & Hand",
+                "Disabilities of the Arm Shoulder & Hand",
+                "(DASH)",
+                " DASH "
+            ],
+            "Shoulder Pain and Disability Index": [
+                "Shoulder Pain and Disability Index",
+                "Shoulder Pain & Disability Index",
+                "(SPADI)",
+                " SPADI "
+            ],
+            "Constant-Murley functional assessment of the shoulder": [
+                "Constant-Murley"
+            ],
+            "Penn Shoulder": [
+                "Penn Shoulder"
+            ],
+            "UCLA Shoulder": [
+                "UCLA Shoulder"
+            ],
+            "Western Ontario Shoulder Instability Index": [
+                "Western Ontario Shoulder Instability Index",
+                "(WOSI)",
+                " WOSI "
+            ],
+            "Rowe Score for Shoulder Instability": [
+                "Rowe Score for Shoulder Instability"
+            ],
+            "Mayo Wrist Score": [
+                "Mayo Wrist Score"
+            ],
+            "American Shoulder and Elbow Surgeons": [
+                "American Shoulder and Elbow Surgeons",
+                "American Shoulder & Elbow Surgeons",
+                "(ASES)",
+                " ASES "
+            ],
+            "Mayo Elbow Performance": [
+                "Mayo Elbow Performance",
+                "(MEPS)",
+                " MEPS "
+            ],
+            "Simple Shoulder Test": [
+                "Simple Shoulder Test"
+            ],
+            "Upper Extremity Function Scale": [
+                "Upper Extremity Function Scale",
+                "(UEFS)",
+                " UEFS "
+            ],
+            "Patient-Rated Wrist Evaluation": [
+                "Patient-Rated Wrist Evaluation",
+                "(PRWE)",
+                " PRWE "
+            ],
+            "Functional Arm Scale for Throwers": [
+                "Functional Arm Scale for Throwers",
+                "(FAST)"
+            ],
+            "Grip strength": [
+                "Grip strength"
+            ],
+            "Pinch strength": [
+                "Pinch strength"
+            ],
+            "Krimmer Wrist Score": [
+                "Krimmer Wrist Score",
+                "(KWS)"
+            ]
+        },
+        "Hip": {
+            "Copenhagen Hip and Groin Outcome Score": [
+                "Copenhagen Hip and Groin Outcome Score",
+                "Copenhagen Hip & Groin Outcome Score",
+                "(HAGOS)",
+                " HAGOS "
+            ],
+            "Hip disability and Osteoarthritis Outcome Score": [
+                "Hip disability and Osteoarthritis Outcome Score",
+                "Hip disability & Osteoarthritis Outcome Score",
+                "(HOOS)",
+                " HOOS "
+            ],
+            "Hip disability and Osteoarthritis Outcome Score 12": [
+                "Hip disability and Osteoarthritis Outcome Score 12",
+                "Hip disability & Osteoarthritis Outcome Score 12",
+                "(HOOS-12)",
+                " HOOS-12 "
+            ],
+            "Hip disability and Osteoarthritis Outcome Score for Joint Replacement": [
+                "Hip disability and Osteoarthritis Outcome Score for Joint Replacement",
+                "Hip disability & Osteoarthritis Outcome Score for Joint Replacement",
+                "(HOOS JR)",
+                " HOOS JR "
+            ],
+            "Harris Hip Score": [
+                "Harris Hip Score"
+            ],
+            "Hip Outcome Score": [
+                "Hip Outcome Score",
+                "(HOS)"
+            ],
+            "Majeed Pelvic Outcome Score": [
+                "Majeed"
+            ]
+        },
+        "Lower_Extremity": {
+            "Lower Extremity Function Scale": [
+                "Lower Extremity Function Scale",
+                "(LEFS)",
+                " LEFS "
+            ]
+        },
+        "Hip or Knee": {
+            "Western Ontario McMaster Arthritis Index": [
+                "Western Ontario McMaster Arthritis Index",
+                "(WOMAC)",
+                " WOMAC "
+            ]
+        },
+        "Knee": {
+            "Knee injury and Osteoarthritis Outcome Score": [
+                "Knee injury and Osteoarthritis Outcome Score",
+                "Knee injury & Osteoarthritis Outcome Score",
+                "(KOOS)",
+                " KOOS "
+            ],
+            "Knee injury and Osteoarthritis Outcome Score 12": [
+                "Knee injury and Osteoarthritis Outcome Score 12",
+                "Knee injury & Osteoarthritis Outcome Score 12",
+                "(KOOS-12)",
+                " KOOS-12 "
+            ],
+            "Knee injury and Osteoarthritis Outcome Score for Joint Replacement": [
+                "Knee injury and Osteoarthritis Outcome Score for Joint Replacement",
+                "Knee injury & Osteoarthritis Outcome Score for Joint Replacement",
+                "(KOOS JR)",
+                " KOOS JR "
+            ],
+            "Modified Cincinnati Rating System": [
+                "Modified Cincinnati Rating System"
+            ],
+            "Knee Society Score": [
+                "Knee Society Score"
+            ],
+            "Anterior Knee Pain Scale": [
+                "Anterior Knee Pain Scale",
+                "Kujala"
+            ],
+            "Marx Activity Rating": [
+                "Marx Activity Rating"
+            ],
+            "Tegner Lysholm Knee Scoring": [
+                "Tegner Lysholm Knee Scoring"
+            ],
+            "International Knee Documentation Committee Subjective Knee Evaluation": [
+                "International Knee Documentation Committee Subjective Knee Evaluation",
+                "(IKDC)",
+                " IKDC "
+            ],
+            "Knee Outcome Survey": [
+                "Knee Outcome Survey",
+                "(KOS)",
+                " KOS "
+            ],
+            "ACL Return to Sport after Injury": [
+                "ACL Return to Sport after Injury",
+                "(ACL-RSI)",
+                " ACL-RSI "
+            ],
+            "Oxford Knee Questionnaire": [
+                "Oxford Knee Questionnaire",
+                "Oxford Knee Score"
+            ],
+            "Lysholm Rating Scale": [
+                "Lysholm"
+            ],
+            "Bostman score": [
+                "Bostman",
+                "Böstman"
+            ],
+            "Rasmussen Assessment criteria": [
+                "Rasmussen"
+            ],
+            "American Knee Society scoring system": [
+                "American Knee Society",
+                "(AKS)",
+                " AKS "
+            ],
+            "International Knee Documentation Committee Subjective score": [
+                "International Knee Documentation Committee Subjective",
+                "(IKDC)",
+                " IKDC "
+            ]
+        },
+        "Foot and Ankle": {
+            "Foot and Ankle Outcome Score": [
+                "Foot and Ankle Outcome Score",
+                "Foot & Ankle Outcome Score",
+                "(FAOS)",
+                " FAOS "
+            ],
+            "Foot and Ankle Ability Measure": [
+                "Foot and Ankle Ability Measure",
+                "Foot & Ankle Ability Measure",
+                "(FAAM)",
+                " FAAM "
+            ],
+            "Foot and Ankle Disability Index": [
+                "Foot and Ankle Disability Index",
+                "Foot & Ankle Disability Index",
+                "(FADI)",
+                " FADI "
+            ],
+            "Foot Function Index": [
+                "Foot Function Index",
+                "(FFI)",
+                " FFI "
+            ],
+            "American Orthopaedic Foot and Ankle Society": [
+                "American Orthopaedic Foot and Ankle Society",
+                "American Orthopedic Foot and Ankle Surgery",
+                "American Orthopaedic Foot & Ankle Society",
+                "American Orthopedic Foot & Ankle Surgery",
+                "(AOFAS)",
+                " AOFAS "
+            ],
+            "American College of Foot and Ankle Surgeons": [
+                "American College of Foot and Ankle Surgeons",
+                "American College of Foot & Ankle Surgeons",
+                "(ACFAS)",
+                " ACFAS "
+            ],
+            "Cumberland Ankle Instability Tool": [
+                "Cumberland Ankle Instability Tool",
+                "(CAIT)"
+            ],
+            "Ankle osteoarthritis scale": [
+                "Ankle osteoarthritis scale",
+                "(AOS)",
+                " AOS "
+            ],
+            "European Foot and Ankle Society": [
+                "European Foot and Ankle Society",
+                "European Foot & Ankle Society",
+                "(EFAS)",
+                " EFAS "
+            ],
+            "Manchester-Oxford Foot Questionnaire": [
+                "Manchester-Oxford Foot Questionnaire",
+                "(MOXFQ)",
+                " MOXFQ "
+            ],
+            "Mazur Ankle Evaluation Grading System": [
+                "Mazur Ankle Evaluation Grading System",
+                "Mazur"
+            ],
+            "Maryland Foot Score": [
+                "Maryland Foot Score",
+                "(MFS)"
+            ],
+            "Ankle activity score": [
+                "Ankle activity score"
+            ],
+            "Ankle-rating scale": [
+                "Ankle-rating scale"
+            ],
+            "Ankle Joint Functional Assessment Tool": [
+                "Ankle Joint Functional Assessment Tool",
+                "(AJFAT)",
+                " AJFAT "
+            ],
+            "Olerud and Molander Scoring System": [
+                "Olerud and Molander",
+                "Olerud-Molander"
+            ],
+            "Achilles Tendon total Rupture Score": [
+                "Achilles Tendon total Rupture Score",
+                "(ATRS)",
+                " ATRS "
+            ]
+        },
+        "General Health": {
+            "Short Form 12": [
+                "Short Form 12",
+                "Short-Form 12",
+                "(SF-12)",
+                "(SF12)",
+                " SF-12 ",
+                " SF12 "
+            ],
+            "Short Form 20": [
+                "Short Form 20",
+                "Short-Form 20",
+                "(SF-20)",
+                "(SF20)",
+                " SF-20 ",
+                " SF20 "
+            ],
+            "Short Form 36": [
+                "Short Form 36",
+                "Short-Form 36",
+                "(SF-36)",
+                "(SF36)",
+                " SF-36 ",
+                " SF36 "
+            ],
+            "RAND 36": [
+                "RAND 36",
+                "RAND-36"
+            ],
+            "Musculoskeletal Function Assessment": [
+                "Musculoskeletal Function Assessment",
+                "(MFA)"
+            ],
+            "Operative time": [
+                "Operative time"
+            ],
+            "Hospital stay": [
+                "Hospital stay"
+            ],
+            "Patient-Reported Outcomes Measurement Information System": [
+                "Patient-Reported Outcomes Measurement Information System",
+                "(PROMIS)"
+            ],
+            "Visual analogue Scale": [
+                "Visual analogue Scale",
+                "Visual analogue pain Scale",
+                "Visual pain analogue Scale",
+                "(VAS)",
+                " VAS ",
+                "Numeric Analogue Scale",
+                "Numeric Rating Scale pain",
+                "(NAS)"
+            ],
+            "Patient satisfaction": [
+                "Patient satisfaction"
+            ],
+            "Patient Evaluation Measure": [
+                "Patient Evaluation Measure",
+                "(PEM)"
+            ],
+            "European Quality of Life Scale": [
+                "European Quality of Life Scale",
+                "EuroQol",
+                "(EQ-5D",
+                "EQ5D"
+            ],
+            "Activities of Daily Living Scale": [
+                "Activities of Daily Living",
+                "Activitiy of Daily Living",
+                "(ADL)",
+                "(IADL)"
+            ],
+            "Short  Musculoskeletal  Function Assessment  Questionnaire": [
+                "Short  Musculoskeletal  Function Assessment",
+                "(SMFA)",
+                " SMFA "
+            ],
+            "Time return to work": [
+                "Time return to work",
+                "(RTW)"
+            ]
+        }
+    },
+    "Radiological outcomes": {
+        "Osteosynthesis": {
+            "Union rate": [
+                "Union rate",
+                "Fusion rate",
+                "Bone healing rate",
+                "union incidence",
+                "fusion incidence",
+                "Bone healing incidence",
+                "radiographic healing"
+            ],
+            "Union time": [
+                "Union time",
+                "Fusion time",
+                "Bone healing time",
+                "Time to union",
+                "Time to fusion",
+                "Time to bone healing",
+                "Time to healing"
+            ],
+            "Matta radiological score": [
+                "Matta"
+            ]
+        },
+        "Range of motion": {
+            "Range of motion": [
+                "Range of motion",
+                "Range of movement",
+                "(ROM)"
+            ]
+        },
+        "Foot angles": {
+            "Hallux valgus angle": [
+                "Hallux valgus angle",
+                "first metatarsophalangeal angle",
+                "hallux abductus angle",
+                "(HVA)"
+            ],
+            "Distal Metatarsal Joint Angle": [
+                "Distal Metatarsal Joint Angle",
+                "(DMAA)",
+                " DMAA ",
+                "(DM2AA)",
+                " DM2AA "
+            ],
+            "Intermetatarsal Angle": [
+                "Intermetatarsal Angle",
+                "(IMA)"
+            ],
+            "Fifth metatarsal angle": [
+                "Fifth metatarsal angle"
+            ],
+            "Veneer declination": [
+                "Veneer declination"
+            ],
+            "Medial Arch Sag Angle": [
+                "Medial Arch Sag Angle",
+                "(MASA)"
+            ],
+            "Calcaneal Inclination Angle": [
+                "Calcaneal Inclination Angle",
+                "Calcaneal pitch"
+            ],
+            "Meary's angle": [
+                "Meary's angle",
+                "Talus-first metatarsal angle"
+            ],
+            "Moreau-Costa-Bertani internal angle": [
+                "Djian-Annonier",
+                "Medial arch angle",
+                "Moreau-Costa-Bertani"
+            ],
+            "Medial Cuneiform Cobb Angle": [
+                "Medial Cuneiform Cobb Angle",
+                "(MCCA)"
+            ],
+            "Fowler-Philips angle": [
+                "Fowler-Philips angle"
+            ]
+        },
+        "Wrist angles": {
+            "Radial height": [
+                "Radial height"
+            ],
+            "Radial inclination": [
+                "Radial inclination"
+            ],
+            "Volar tilt": [
+                "Volar tilt"
+            ],
+            "Ulnar variance": [
+                "Ulnar variance"
+            ]
+        },
+        "Ankle angles": {
+            "Böhler angle": [
+                "Böhler angle"
+            ],
+            "Gissane angle": [
+                "Gissane angle"
+            ]
+        },
+        "Femoral neck angles": {
+            "Pauwel's angle": [
+                "Pauwel's angle",
+                "Pauwel angle"
+            ],
+            "Southwick slip angle": [
+                "Southwick slip angle"
+            ]
+        },
+        "Scaphoid angles": {
+            "Lateral intrascaphoid angle": [
+                "Lateral intrascaphoid angle"
+            ],
+            "scapholunate angle": [
+                "scapholunate angle"
+            ],
+            "radiolunate angle": [
+                "radiolunate angle",
+                "DISI deformity"
+            ],
+            "Intrascaphoid angle": [
+                "Intrascaphoid angle"
+            ]
+        },
+        "Other lower extremity angles": {
+            "hip-knee-ankle angle": [
+                "hip-knee-ankle angle",
+                "hip knee ankle angle",
+                "(HKA) angle"
+            ]
+        }
+    }
+}

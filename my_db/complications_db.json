@@ -1,0 +1,258 @@
+{
+    "complications": {
+        "vessel events": {
+            "Hematoma": [
+                "Hematoma",
+                "Haematoma"
+            ],
+            "Thrombosis": [
+                "Thrombosis"
+            ],
+            "Embolism": [
+                "Embolism"
+            ],
+            "Hemorrhage": [
+                "Hemorrhage",
+                "Haemorrhage"
+            ]
+        },
+        "Pain": {
+            "Complex Regional Pain Syndrome": [
+                "Complex Regional Pain Syndrome",
+                "(CRPS)"
+            ],
+            "Painful hardware": [
+                "Painful hardware",
+                "Pain over hardware",
+                "Painful implant",
+                "Pain over implant",
+                "Painful device",
+                "Pain over device",
+                "Peri-implant pain",
+                "Peri-implant pain",
+                "Implant pain",
+                "Hardware pain",
+                "Device pain"
+            ]
+        },
+        "Osteoarthritis of Neighboring Joints": {
+            "Osteoarthritis of Neighboring Joints": [
+                "Osteoarthritis of Neighboring Joints",
+                "Osteoarthritis of adjacent Joints",
+                "Arthritis of Neighboring Joints",
+                "Arthritis of adjacent Joints",
+                "Adjacent-joint osteoarthritis",
+                "Adjacent-joint arthritis",
+                "Adjacent joint osteoarthritis",
+                "Adjacent joint arthritis"
+            ]
+        },
+        "Infection": {
+            "Deep infection": [
+                "Deep infection",
+                "Peri-prosthetic infection",
+                "Periprosthetic infection",
+                "Peri-implant infection",
+                "Peri implant infection",
+                "Peri implant infection",
+                "Deep wound infection",
+                "Sepsis"
+            ],
+            "Urinary tract infection": [
+                "Urinary tract infection",
+                "Urinary infection"
+            ],
+            "Superficial or wound infection": [
+                "Superficial or wound infection",
+                "Superficial infection",
+                "Wound infection"
+            ]
+        },
+        "Surgical and other invasive AEs": {
+            "Reoperation": [
+                "Reoperation",
+                "Re-operation",
+                "Implant removal"
+            ],
+            "Revision": [
+                "Revision",
+                "Implant exchange"
+            ],
+            "Per or post operative fracture, Peri-implant fracture": [
+                "Intraoperative Fracture",
+                "Intra operative Fracture",
+                "Intra-operative Fracture",
+                "Postoperative Fracture",
+                "Post operative Fracture",
+                "Post-operative Fracture",
+                "Periprosthetic Fracture",
+                "Peri-implant Fracture"
+            ],
+            "Technical Error": [
+                "Technical Error"
+            ],
+            "Implant malposition": [
+                "Malposition",
+                "Malpositioning"
+            ],
+            "Amputation": [
+                "Amputation"
+            ]
+        },
+        "Biocompatibility": {
+            "Allergic reaction": [
+                "Allergic reaction",
+                "Allergy"
+            ],
+            "Biocompatibility problem": [
+                "Biocompatibility problem",
+                "Implant rejection",
+                "Hardware rejection",
+                "Device rejection"
+            ],
+            "Osseointegration Problem": [
+                "Osseointegration Problem",
+                "Osseointegration failure",
+                "Failure to osseointegrate",
+                "Loss of osseointegration"
+            ]
+        },
+        "Medical Device Problem": {
+            "Implant Failure": [
+                "Implant failure",
+                "Hardware failure",
+                "device failure",
+                "Implant breakage",
+                "Hardware breakage",
+                "device breakage",
+                "Implant breakdown",
+                "Hardware breakdown",
+                "device breakdown",
+                "Implant fragmentation",
+                "Hardware fragmentation",
+                "device fragmentation",
+                "Implant deformation",
+                "Hardware deformation",
+                "device deformation",
+                "Implant rupture",
+                "Hardware rupture",
+                "device rupture"
+            ],
+            "Implant malfunction": [
+                "malfunction",
+                "Defective implant",
+                "Defective hardware",
+                "Defective device"
+            ]
+        },
+        "Implant displacement": {
+            "Implant migration": [
+                "Implant migration",
+                "Hardware migration",
+                "device migration",
+                "Implant displacement",
+                "Hardware displacement",
+                "device displacement",
+                "Implant expulsion",
+                "Hardware expulsion",
+                "device expulsion"
+            ],
+            "Implant subsidence": [
+                "Subsidence"
+            ],
+            "Implant perforation or protrusion": [
+                "Implant perforation ",
+                "Hardware perforation ",
+                "device perforation ",
+                "Implant protrusion",
+                "Hardware protrusion",
+                "device protrusion",
+                "Implant extrusion",
+                "Hardware extrusion",
+                "device extrusion",
+                "Implant dislodge",
+                "Hardware dislodge",
+                "device dislodge",
+                "Implant dislocat",
+                "Hardware dislocat",
+                "device dislocat",
+                "Implant prominence",
+                "Hardware prominence",
+                "device prominence"
+            ]
+        },
+        "Soft tissue damage": {
+            "Soft tissue damage or irritation": [
+                "Soft tissue damage",
+                "Soft-tissue damage",
+                "Soft tissue injury",
+                "Soft-tissue injury",
+                "Soft tissue irritation",
+                "Soft-tissue irritation"
+            ],
+            "Nerve damage or irritation": [
+                "Nerve damage",
+                "Nerve injury",
+                "Nerve root injury",
+                "Nerve irritation"
+            ],
+            "Muscle damage or irritation": [
+                "Muscle damage",
+                "Muscle injury",
+                "Muscle irritation"
+            ],
+            "Ligament damage or irritation": [
+                "Ligament damage",
+                "Ligament injury",
+                "Ligament irritation"
+            ],
+            "Tendon damage or irritation": [
+                "Tendon damage",
+                "Tendon injury",
+                "Tendon irriration"
+            ],
+            "Delayed Wound Healing": [
+                "Delayed wound healing",
+                "Wound healing problem",
+                "Dehiscence"
+            ]
+        },
+        "Radiological findings": {
+            "Non-union": [
+                "Non-union",
+                "Non union",
+                "Pseudarthrosis"
+            ],
+            "Delayed union": [
+                "Delayed union",
+                "Delayed fusion",
+                "Delayed-union",
+                "Delayed-fusion",
+                "Delayed bone union",
+                "Delayed bone fusion",
+                "Delayed bone healing"
+            ],
+            "Malunion": [
+                "Mal union",
+                "Mal-union",
+                "Recurrence of deformity",
+                "Deformity recurrence "
+
+            ],
+            
+            "Aseptic Loosening": [
+                "Aseptic Loosening",
+                "Loosening"
+            ],
+            "Osteolysis": [
+                "Osteolysis",
+                "periprosthetic cysts",
+                "peri-implant cysts"
+            ],
+            "Heterotopic Ossification": [
+                "Heterotopic Ossification",
+                "Osseous Spurring"
+            ]
+        }
+    }
+}

@@ -1,0 +1,224 @@
+{
+    "Bones anatomy": {
+        "Upper Extremity": {
+            "Scapula": {
+                "Scapula": [
+                    "Scapula"
+                ]
+            },
+            "Clavicle": {
+                "Clavicle": [
+                    "Clavicle"
+                ]
+            },
+            "Humerus": {
+                "Humerus": [
+                    "Humerus",
+                    "Humeral"
+                ]
+            },
+            "Radius": {
+                "Radius": [
+                    "Radius"
+                ]
+            },
+            "Ulna": {
+                "Ulna": [
+                    "Ulna"
+                ]
+            },
+            "Wrist": {
+                "Wrist": [
+                    "Wrist",
+                    "Carpal bones",
+                    "Carpus"
+                ],
+                "Scaphoid": [
+                    "Scaphoid"
+                ],
+                "Trapezoid": [
+                    "Trapezoid"
+                ],
+                "Trapezium": [
+                    "Trapezium"
+                ],
+                "Lunate": [
+                    "Lunate"
+                ],
+                "Triquetrum": [
+                    "Triquetrum"
+                ],
+                "Pisiform": [
+                    "Pisiform"
+                ],
+                "Hamate": [
+                    "Hamate"
+                ],
+                "Capitate": [
+                    "Capitate"
+                ]
+            },
+            "metacarp": {
+                "metacarp": [
+                    "metacarp"
+                ]
+            },
+            "Hand": {
+                "Hand": [
+                    "Hand"
+                ]
+            },
+            "Finger": {
+                "Finger": [
+                    "Finger"
+                ],
+                "Proximal phalange": [
+                    "Proximal phalan"
+                ],
+                "Middle phalange": [
+                    "Middle phalan"
+                ],
+                "Distal phalange": [
+                    "Distal phalan"
+                ],
+                "Thumb": [
+                    "Thumb"
+                ]
+            }
+        },
+    
+        "Lower Extremity": {
+            "Hip (Ilium, Ischium, Pubis)": {
+                "Hip ": [
+                    "Hip "
+                ],
+                "Ilium": [
+                    "Ilium",
+                    "Iliac"
+                ],
+                "Ischium": [
+                    "Ischium"
+                ],
+                "Pubis": [
+                    "Pubis",
+                    "Pubic"
+                ],
+                "Sacroiliac": [
+                    "Sacroiliac",
+                    "Iliosacral"
+                ],
+                "acetabular": [
+                    "acetabul"
+                ],
+                "Sacrum": [
+                    "Sacrum",
+                    "Sacral"
+                ],
+                "pelvis": [
+                    "pelvis",
+                    "pelvic"
+                ],
+                "coccyx": [
+                    "coccyx"
+                ]
+            },
+            "Femur": {
+                "Femur": [
+                    "Femur",
+                    "Femoral"
+                ]
+            },
+            "Knee": {
+                "Patella": [
+                    "Patella"
+                ],
+                "Knee": [
+                    "Knee"
+                ],
+                "Meniscus": [
+                    "Meniscus"
+                ]
+            },
+            "Tibia": {
+                "Tibia": [
+                    "Tibia"
+                ],
+                "Medial malleolus": [
+                    "Medial malleolus"
+                ],
+                "Lateral condyle": [
+                    "Lateral condyle"
+                ],
+                "Medial condyle": [
+                    "Medial condyle"
+                ]
+            },
+            "Fibula": {
+                "Fibula": [
+                    "Fibula"
+                ],
+                "Lateral malleolus": [
+                    "Lateral malleolus"
+                ]
+            },
+            "Talus": {
+                "Talus": [
+                    "Talus",
+                    "Talar"
+                ]
+            },
+            "Ankle": {
+                "Ankle": [
+                    "Ankle",
+                    "Tibio talar"
+                ]
+            },
+            "Foot": {
+                "Foot": [
+                    "Foot"
+                ],
+                "Hallux": [
+                    "Hallux",
+                    "Big Toe"
+                ],
+                "Calcaneus": [
+                    "Calcaneus",
+                    "Calcaneal"
+                ],
+                "Sustentaculum": [
+                    "Sustentaculum"
+                ],
+                "Navicular": [
+                    "Navicular"
+                ],
+                "Medial Cuneiform": [
+                    "Medial Cuneiform"
+                ],
+                "Middle Cuneiform": [
+                    "Middle Cuneiform"
+                ],
+                "Lateral Cuneiform": [
+                    "Lateral Cuneiform"
+                ],
+                "Cuboid": [
+                    "Cuboid"
+                ],
+                "Metatarsus": [
+                    "Metatars"
+                ],
+                "Proximal Phalan": [
+                    "Proximal Phalan"
+                ],
+                "Middle Phalan": [
+                    "Middle Phalan"
+                ],
+                "Distal Phalan": [
+                    "Distal Phalan"
+                ],
+                "Lisfranc": [
+                    "Lisfranc"
+                ]
+            }
+        }
+    }
+}

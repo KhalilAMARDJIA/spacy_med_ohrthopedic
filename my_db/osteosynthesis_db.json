@@ -1,0 +1,28 @@
+{
+    "Bones procedures": {
+        "Osteosynthesis": {
+            "Fracture fixation": [
+                "Fracture",
+                "Fixation of fracture",
+                "Fractures fixation",
+                "Fixation of fracture",
+                "open reduction"
+            ],
+            "Arthrodesis": [
+                "Arthrodesis",
+                "Arthrodeses",
+                "Fusion"
+            ],
+            "Osteotomy": [
+                "Osteotomy",
+                "Osteotomies"
+            ]
+        },
+        "Arthroplasty": {
+            "Arthroplasty": [
+                "Arthroplasty",
+                "Joint replacement"
+            ]
+    }
+}
+}
