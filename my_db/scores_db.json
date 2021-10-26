@@ -380,6 +380,15 @@
             "Time return to work": [
                 "Time return to work",
                 "(RTW)"
+            ],
+            "Health Rrelated Quality of Life": [
+                "Health Rrelated Quality of Life",
+                "HRQoL",
+                "(HRQoL)"
+            ],
+            "Implant survival": [
+                "Implant survival",
+                "Survival Rate"
             ]
         }
     },
