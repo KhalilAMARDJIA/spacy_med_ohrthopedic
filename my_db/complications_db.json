@@ -211,6 +211,10 @@
                 "Tendon injury",
                 "Tendon irriration"
             ],
+            "Tendon re-rupture": [
+                "re-rupture",
+                "rerupture"
+            ],
             "Delayed Wound Healing": [
                 "Delayed wound healing",
                 "Wound healing problem",
