@@ -86,6 +86,9 @@
             "Krimmer Wrist Score": [
                 "Krimmer Wrist Score",
                 "(KWS)"
+            ],
+            " Scaphoid Outcome Score":[
+                " Scaphoid Outcome Score"
             ]
         },
         "Hip": {
@@ -244,6 +247,14 @@
                 "American Orthopedic Foot & Ankle Surgery",
                 "(AOFAS)",
                 " AOFAS "
+            ],
+            "Self-Reported Foot and Ankle Score": [
+                "Self-Reported Foot and Ankle Score",
+                "Self-Reported Foot & Ankle Score",
+                "Self Reported Foot and Ankle Score",
+                "Self Reported Foot & Ankle Score",
+                "(SEFAS)",
+                " SEFAS "
             ],
             "American College of Foot and Ankle Surgeons": [
                 "American College of Foot and Ankle Surgeons",
