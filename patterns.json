@@ -10,7 +10,7 @@
             {"lower": "years"},
             {"OP": "?"},
             {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
-            {"OP": "?"},"score", "scale", "index", "cr
+            {"OP": "?"},
             {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
             {"OP": "?"},
             {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},

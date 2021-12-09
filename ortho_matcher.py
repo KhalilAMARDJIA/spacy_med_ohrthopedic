@@ -15,10 +15,11 @@ with open ("patterns.json") as file:
 
 patient_age = [patterns[0]['age']]
 sample_size = [patterns[0]['sample_size']]
-
+outcomes = [patterns[0]['outcomes']]
 
 matcher.add("AGE_PATIENT", patient_age, greedy="LONGEST")
 matcher.add("SAMPLE_SIZE", sample_size, greedy="LONGEST")
+matcher.add("OUTCOME", outcomes, greedy="LONGEST")
 
 abstracts_w_id = []  # create a tupple of (abstract, id) to trace
 
@@ -48,7 +49,7 @@ df_match = pd.DataFrame({
     'score': scores,
     'tag': tags})
 
-d = df_match[df_match.tag != "AGE_PATIENT"]
+df_match = df_match.drop_duplicates()
 
-for s in d.score:
-    print(s)
+
+df_match[df_match.tag == 'OUTCOME']
