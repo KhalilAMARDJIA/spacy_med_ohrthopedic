@@ -48,4 +48,7 @@ df_match = pd.DataFrame({
     'score': scores,
     'tag': tags})
 
-df_match[df_match.tag != "AGE_PATIENT"]
+d = df_match[df_match.tag != "AGE_PATIENT"]
+
+for s in d.score:
+    print(s)

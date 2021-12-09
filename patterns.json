@@ -1,26 +1,37 @@
 [{
     "age":[   
-    {"OP": "?"},
-    {"lower": "age"},
-    {"OP": "?"},
-    {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "+"},
-    {"OP": "?"},
-    {"OP": "?"},
-    {"OP": "?"},
-    {"lower": "years"},
-    {"OP": "?"},
-    {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
-    {"OP": "?"},
-    {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
-    {"OP": "?"},
-    {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
-    {"lower": "old", "OP": "?"}
+            {"OP": "?"},
+            {"lower": "age"},
+            {"OP": "?"},
+            {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "+"},
+            {"OP": "?"},
+            {"OP": "?"},
+            {"OP": "?"},
+            {"lower": "years"},
+            {"OP": "?"},
+            {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
+            {"OP": "?"},"score", "scale", "index", "cr
+            {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
+            {"OP": "?"},
+            {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
+            {"lower": "old", "OP": "?"}
     ],
 
     "sample_size":[
-    {"LIKE_NUM": true, "OP": "+"},
-    {"LEMMA": "patient"}
-    ]
+            {"LIKE_NUM": true, "OP": "+"},
+            {"LEMMA": {"IN": ["patient", "implant", "feet", "prosthesis"]}}
+    ],
 
+    "outcomes": [
+            {"IS_TITLE": true, "OP": "+"},
+            {"OP": "?"},
+            {"OP": "?"},
+            {"OP": "?"},
+            {"IS_UPPER": true, "OP": "?"},
+            {"OP": "?"},
+            {"IS_TITLE": true, "OP": "?"},
+            {"OP": "?"},
+            {"LEMMA": {"IN": ["score", "scale", "index", "criteria"]}}
+    ]
 }
 ]
