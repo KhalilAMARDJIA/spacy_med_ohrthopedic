@@ -28,6 +28,8 @@ for abstract,pubmed_id in zip(df.abstract,df.pubmed_id):
 tags = []
 scores = []
 matched_ids = []
+starts = []
+ends = []
 
 for doc, abstract_id in list(nlp.pipe(abstracts_w_id, as_tuples=True)):
     matches = matcher(doc)
@@ -40,16 +42,16 @@ for doc, abstract_id in list(nlp.pipe(abstracts_w_id, as_tuples=True)):
             tags.append(string_id)
             scores.append(span.text.replace('\n', ''))
             matched_ids.append(abstract_id)
+            starts.append(start)
+            ends.append(end)
 
 
 df_match = pd.DataFrame({
     'match_id': matched_ids,
     'score': scores,
-    'tag': tags})
+    'tag': tags,
+    'starts': starts,
+    "ends": ends})
 
 df_match = df_match.drop_duplicates()
 
-
-pd.pivot_table(df_match ,columns='score', values='tag')
-
-pd.crosstab(df_match.match_id, [df_match.tag])
