@@ -8,10 +8,8 @@ df = df[df['abstract'].notna()]
 nlp = spacy.load('en_core_sci_sm')
 matcher = Matcher(nlp.vocab)
 
-with open ("patterns.json") as file:
+with open ("ortho_matcher/patterns.json") as file:
     patterns = json.load(file)
-
-
 
 patient_age = [patterns[0]['age']]
 sample_size = [patterns[0]['sample_size']]
@@ -50,6 +48,3 @@ df_match = pd.DataFrame({
     'tag': tags})
 
 df_match = df_match.drop_duplicates()
-
-
-df_match[df_match.tag == 'OUTCOME']
