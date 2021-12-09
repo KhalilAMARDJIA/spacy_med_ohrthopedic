@@ -15,7 +15,9 @@ matcher = Matcher(nlp.vocab)
 scores_tag = ["age", "years"]
 
 age_range = [
-    [   {"lower": "age"},
+    [   
+        {"OP": "?"},
+        {"lower": "age"},
         {"OP": "?"},
         {"LIKE_NUM": True, "LENGTH": {">": 1}, "OP": "+"},
         {"OP": "?"},
@@ -23,6 +25,7 @@ age_range = [
         {"OP": "?"},
         {"lower": "years"},
         {"OP": "?"},
+        {"LIKE_NUM": True, "LENGTH": {">": 1}, "OP": "?"},
         {"lower": "old", "OP": "?"}
     ]
 ]
