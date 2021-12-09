@@ -1,25 +1,24 @@
-from query import df_pubmed
 import pandas as pd
 import spacy
 from spacy.matcher import Matcher
 import json
 
-query = '"Arthroplasty, Replacement, Ankle"[Mesh]'
-df = df_pubmed(query= query)
-df =  df.dropna(subset=['pubmed_id', 'abstract'])
-
-
+df = pd.read_csv("pubmed_raw.csv", sep = '|')
+df = df[df['abstract'].notna()]
 nlp = spacy.load('en_core_sci_sm')
 matcher = Matcher(nlp.vocab)
 
-scores_tag = ["age", "years"]
+with open ("patterns.json") as file:
+    patterns = json.load(file)
 
-with open ("patterns/age.json") as file:
-    age_pattern = json.load(file)
 
-patient_age = [age_pattern]
+
+patient_age = [patterns[0]['age']]
+sample_size = [patterns[0]['sample_size']]
+
 
 matcher.add("AGE_PATIENT", patient_age, greedy="LONGEST")
+matcher.add("SAMPLE_SIZE", sample_size, greedy="LONGEST")
 
 abstracts_w_id = []  # create a tupple of (abstract, id) to trace
 
@@ -49,5 +48,4 @@ df_match = pd.DataFrame({
     'score': scores,
     'tag': tags})
 
-for age in df_match.score:
-    print(age)
+df_match[df_match.tag != "AGE_PATIENT"]

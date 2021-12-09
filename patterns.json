@@ -1,4 +1,5 @@
-[   
+[{
+    "age":[   
     {"OP": "?"},
     {"lower": "age"},
     {"OP": "?"},
@@ -14,4 +15,12 @@
     {"OP": "?"},
     {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
     {"lower": "old", "OP": "?"}
+    ],
+
+    "sample_size":[
+    {"LIKE_NUM": true, "OP": "+"},
+    {"LEMMA": "patient"}
+    ]
+
+}
 ]
