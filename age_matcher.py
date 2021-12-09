@@ -4,7 +4,7 @@ import spacy
 from spacy.matcher import Matcher
 
 
-query = 'proximal interphalangeal arthrodesis'
+query = '"Arthroplasty, Replacement, Ankle"[Mesh]'
 df = df_pubmed(query= query)
 df =  df.dropna(subset=['pubmed_id', 'abstract'])
 
@@ -12,14 +12,18 @@ df =  df.dropna(subset=['pubmed_id', 'abstract'])
 nlp = spacy.load('en_core_sci_sm')
 matcher = Matcher(nlp.vocab)
 
-scores_tag = ["age", "year"]
+scores_tag = ["age", "years"]
 
 age_range = [
-    [
-        {"LIKE_NUM": True, "OP": "+"},
+    [   {"lower": "age"},
         {"OP": "?"},
-        {"LIKE_NUM": True, "OP": "+"},
-        {"LEMMA": {"IN": scores_tag}}
+        {"LIKE_NUM": True, "LENGTH": {">": 1}, "OP": "+"},
+        {"OP": "?"},
+        {"OP": "?"},
+        {"OP": "?"},
+        {"lower": "years"},
+        {"OP": "?"},
+        {"lower": "old", "OP": "?"}
     ]
 ]
 
@@ -52,3 +56,5 @@ df_match = pd.DataFrame({
     'match_id': matched_ids,
     'score': scores,
     'tag': tags})
+for age in df_match.score:
+    print(age)
