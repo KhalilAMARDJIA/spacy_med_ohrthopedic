@@ -1,5 +1,4 @@
 from query import df_pubmed
-import pandas as pd
 import spacy
 import json
 from spacy.matcher import PhraseMatcher
