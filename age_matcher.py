@@ -2,7 +2,7 @@ from query import df_pubmed
 import pandas as pd
 import spacy
 from spacy.matcher import Matcher
-
+import json
 
 query = '"Arthroplasty, Replacement, Ankle"[Mesh]'
 df = df_pubmed(query= query)
@@ -14,25 +14,10 @@ matcher = Matcher(nlp.vocab)
 
 scores_tag = ["age", "years"]
 
-patient_age = [
-    [   
-        {"OP": "?"},
-        {"lower": "age"},
-        {"OP": "?"},
-        {"LIKE_NUM": True, "LENGTH": {">": 1}, "OP": "+"},
-        {"OP": "?"},
-        {"OP": "?"},
-        {"OP": "?"},
-        {"lower": "years"},
-        {"OP": "?"},
-        {"LIKE_NUM": True, "LENGTH": {">": 1}, "OP": "?"},
-        {"OP": "?"},
-        {"LIKE_NUM": True, "LENGTH": {">": 1}, "OP": "?"},
-        {"OP": "?"},
-        {"LIKE_NUM": True, "LENGTH": {">": 1}, "OP": "?"},
-        {"lower": "old", "OP": "?"}
-    ]
-]
+with open ("patterns/age.json") as file:
+    age_pattern = json.load(file)
+
+patient_age = [age_pattern]
 
 matcher.add("AGE_PATIENT", patient_age, greedy="LONGEST")
 

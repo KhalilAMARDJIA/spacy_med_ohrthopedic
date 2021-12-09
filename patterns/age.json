@@ -1,0 +1,17 @@
+[   
+    {"OP": "?"},
+    {"lower": "age"},
+    {"OP": "?"},
+    {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "+"},
+    {"OP": "?"},
+    {"OP": "?"},
+    {"OP": "?"},
+    {"lower": "years"},
+    {"OP": "?"},
+    {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
+    {"OP": "?"},
+    {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
+    {"OP": "?"},
+    {"LIKE_NUM": true, "LENGTH": {">": 1}, "OP": "?"},
+    {"lower": "old", "OP": "?"}
+]
