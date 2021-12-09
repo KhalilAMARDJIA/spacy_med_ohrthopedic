@@ -26,6 +26,10 @@ patient_age = [
         {"lower": "years"},
         {"OP": "?"},
         {"LIKE_NUM": True, "LENGTH": {">": 1}, "OP": "?"},
+        {"OP": "?"},
+        {"LIKE_NUM": True, "LENGTH": {">": 1}, "OP": "?"},
+        {"OP": "?"},
+        {"LIKE_NUM": True, "LENGTH": {">": 1}, "OP": "?"},
         {"lower": "old", "OP": "?"}
     ]
 ]
@@ -59,6 +63,6 @@ df_match = pd.DataFrame({
     'match_id': matched_ids,
     'score': scores,
     'tag': tags})
-    
+
 for age in df_match.score:
     print(age)
