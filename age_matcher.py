@@ -14,7 +14,7 @@ matcher = Matcher(nlp.vocab)
 
 scores_tag = ["age", "years"]
 
-age_range = [
+patient_age = [
     [   
         {"OP": "?"},
         {"lower": "age"},
@@ -30,7 +30,7 @@ age_range = [
     ]
 ]
 
-matcher.add("AGE_RANGE", age_range, greedy="LONGEST")
+matcher.add("AGE_PATIENT", patient_age, greedy="LONGEST")
 
 abstracts_w_id = []  # create a tupple of (abstract, id) to trace
 
@@ -59,5 +59,6 @@ df_match = pd.DataFrame({
     'match_id': matched_ids,
     'score': scores,
     'tag': tags})
+    
 for age in df_match.score:
     print(age)
