@@ -48,3 +48,8 @@ df_match = pd.DataFrame({
     'tag': tags})
 
 df_match = df_match.drop_duplicates()
+
+
+pd.pivot_table(df_match ,columns='score', values='tag')
+
+pd.crosstab(df_match.match_id, [df_match.tag])
