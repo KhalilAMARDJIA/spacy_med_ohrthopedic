@@ -4,7 +4,7 @@ from query import df_pubmed
 from plotly import express as px
 
 
-data = df_pubmed('("lenses, intraocular/adverse effects"[MeSH Terms]) AND (clinicaltrial[Filter] OR meta-analysis[Filter] OR randomizedcontrolledtrial[Filter] OR review[Filter] OR systematicreview[Filter])')
+data = df_pubmed('("lenses, intraocular"[MeSH Terms]) AND ((y_10[Filter]) AND (meta-analysis[Filter] OR randomizedcontrolledtrial[Filter]))')
 
 data = data[data['abstract'].notna()]
 text = ''
