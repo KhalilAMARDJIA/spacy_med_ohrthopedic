@@ -4,7 +4,8 @@ from query import df_pubmed
 from plotly import express as px
 
 
-data = df_pubmed('Akin Osteotomy')
+data = df_pubmed('("lenses, intraocular/adverse effects"[MeSH Terms]) AND (clinicaltrial[Filter] OR meta-analysis[Filter] OR randomizedcontrolledtrial[Filter] OR review[Filter] OR systematicreview[Filter])')
+
 data = data[data['abstract'].notna()]
 text = ''
 
@@ -13,8 +14,6 @@ for abstract in data.abstract:
 
 nlp = spacy.load("en_ner_bc5cdr_md")
 
-# Named entity recognition
- 
 doc = nlp(text)
 
 ner_data = {
